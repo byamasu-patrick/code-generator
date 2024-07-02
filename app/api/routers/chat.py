@@ -99,7 +99,7 @@ async def chat(
     return response
 
 # streaming endpoint - delete if not needed
-@r.post("stream")
+@r.post("/stream")
 async def chat(
     request: Request,
     data: _ChatData,
