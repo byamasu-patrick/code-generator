@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "test-agent"
+version = "0.1.0"
+description = ""
+authors = ["Byamasu Patrick Paul <43136469+byamasu-patrick@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+llama-index = "^0.10.51"
+llama-index-agent-openai = "^0.2.7"
+llama-index-llms-openai = "^0.1.24"
+openai = "^1.35.7"
+langchain-core = "^0.2.10"
+langchain-text-splitters = "^0.2.2"
+langchain-community = "^0.2.6"
+langchain = "^0.2.6"
+fastapi = "^0.111.0"
+pydantic-settings = "^2.3.4"
+langchain-openai = "^0.1.13"
+llama-index-vector-stores-chroma = "^0.1.10"
+aiostream = "^0.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
