@@ -1,6 +1,6 @@
 # FastAPI Application
 
-This is a FastAPI application.
+This is a Code generation application that uses OpenAI GPT-4o and ChromaDB as Vector Store
 
 ## Requirements
 
